@@ -1,0 +1,6 @@
+2025/09/01-17:16:50.098 6244 Reusing MANIFEST C:\Users\user\Documents\wajs\.wwebjs_auth\session-bot-1756719619625\Default\Local Storage\leveldb/MANIFEST-000001
+2025/09/01-17:16:50.099 6244 Recovering log #3
+2025/09/01-17:16:50.099 6244 Reusing old log C:\Users\user\Documents\wajs\.wwebjs_auth\session-bot-1756719619625\Default\Local Storage\leveldb/000003.log 
+2025/09/01-17:18:50.783 684 Level-0 table #5: started
+2025/09/01-17:18:50.788 684 Level-0 table #5: 16087 bytes OK
+2025/09/01-17:18:50.789 684 Delete type=0 #3
