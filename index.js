@@ -32,33 +32,18 @@ class WhatsAppBot {
 
         // Railway-optimized Puppeteer config
         const puppeteerConfig = {
-            headless: true,
-            args: [
-                '--no-sandbox',
-                '--disable-setuid-sandbox',
-                '--disable-dev-shm-usage',
-                '--disable-accelerated-2d-canvas',
-                '--no-first-run',
-                '--no-zygote',
-                '--disable-gpu',
-                '--disable-web-security',
-                '--single-process',
-                '--disable-background-timer-throttling',
-                '--disable-backgrounding-occluded-windows',
-                '--disable-renderer-backgrounding',
-                '--disable-features=TranslateUI',
-                '--disable-ipc-flooding-protection',
-                '--disable-default-apps',
-                '--disable-extensions',
-                '--disable-dev-tools',
-                '--disable-plugins',
-                '--disable-images',
-                '--disable-javascript',
-                '--disable-background-networking',
-                '--disable-sync'
-            ],
-            timeout: isRailway ? 180000 : 60000 // 3 minutes for Railway
-        };
+  headless: true,
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-accelerated-2d-canvas',
+    '--no-first-run',
+    '--no-zygote',
+    '--disable-gpu'
+  ]
+};
+
 
         this.client = new Client({
             authStrategy: new LocalAuth({
